@@ -59,7 +59,7 @@ class MySwiperApp extends StatelessWidget {
                       mainAxisAlignment: MainAxisAlignment.spaceBetween,
                       children: <Widget>[
                         Text(
-                          "EYERO",
+                          "MATAKUW",
                           style: goldcoinGreyStyle,
                         ),
                         Text(
@@ -77,19 +77,19 @@ class MySwiperApp extends StatelessWidget {
                       crossAxisAlignment: CrossAxisAlignment.start,
                       children: <Widget>[
                         Text(
-                          "Getting",
+                          "Segera",
                           style: greyStyle,
                         ),
                         Text(
-                          "Started",
+                          "Memulai",
                           style: boldStyle,
                         ),
                         SizedBox(
                           height: 20.0,
                         ),
                         Text(
-                          "Eyero performs mobile eye checkups\n"
-                          "We do this in 3 simple steps\n"
+                          "Matakuw melakukan pemeriksaan mata\n"
+                          "Kami melakukan ini dalam 3 langkah sederhana\n"
                           "",
                           style: descriptionGreyStyle,
                         ),
@@ -111,7 +111,7 @@ class MySwiperApp extends StatelessWidget {
                       mainAxisAlignment: MainAxisAlignment.spaceBetween,
                       children: <Widget>[
                         Text(
-                          "EYERO",
+                          "MATAKUW",
                           style: goldCoinWhiteStyle,
                         ),
                         Text(
@@ -128,20 +128,20 @@ class MySwiperApp extends StatelessWidget {
                       crossAxisAlignment: CrossAxisAlignment.start,
                       children: <Widget>[
                         Text(
-                          "Take a picture",
+                          "Ambil gambar",
                           style: whiteStyle,
                         ),
                         Text(
-                          "then Classify",
+                          "Kemudian pendeteksian",
                           style: boldStyle,
                         ),
                         SizedBox(
                           height: 20.0,
                         ),
                         Text(
-                          "Click the camera option\n"
-                          "Take a picture with your camera\n"
-                          "Then click classify to get the results",
+                          "Klik opsi kamera\n"
+                          "Ambil gambar dengan kamera kamu\n"
+                          "Lalu klik klafisikasi untuk mendapatkan hasilnya",
                           style: descriptionWhiteStyle,
                         ),
                       ],
@@ -162,7 +162,7 @@ class MySwiperApp extends StatelessWidget {
                       mainAxisAlignment: MainAxisAlignment.spaceBetween,
                       children: <Widget>[
                         Text(
-                          "Eyero",
+                          "MATAKUW",
                           style: goldCoinWhiteStyle,
                         ),
                         RaisedButton(
@@ -172,7 +172,7 @@ class MySwiperApp extends StatelessWidget {
                           onPressed: () {
                             Navigator.pushNamed(context, '/imagePicker');
                           },
-                          child: Text("Get Started", style: goldCoinWhiteStyle),
+                          child: Text("Memulai", style: goldCoinWhiteStyle),
                         )
                       ],
                     ),
@@ -184,20 +184,20 @@ class MySwiperApp extends StatelessWidget {
                       crossAxisAlignment: CrossAxisAlignment.start,
                       children: <Widget>[
                         Text(
-                          "Pick from",
+                          "Pilih dari",
                           style: whiteStyle,
                         ),
                         Text(
-                          "Gallery",
+                          "Galeri",
                           style: boldStyle,
                         ),
                         SizedBox(
                           height: 20.0,
                         ),
                         Text(
-                          "select the pick from gallery option\n"
-                          "select an image \n"
-                          "Then click classify to get the results",
+                          "Pilih dari opsi galeri\n"
+                          "Pilih gambar \n"
+                          "Lalu klik klasifikasi untuk mendapatkan hasilnya",
                           style: descriptionWhiteStyle,
                         ),
                       ],

@@ -1,11 +1,11 @@
 import 'package:flutter/material.dart';
 
-import 'dart:io';
+// import 'dart:io';
 import './Painters/ListPainter.dart';
-import 'package:eyero/Painters/CurvePainter.dart';
+// import 'package:matakuw/Painters/CurvePainter.dart';
 import 'package:google_fonts/google_fonts.dart';
-import 'package:eyero/Painters/StopPainter.dart';
-import './Painters/TrianglePainter.dart';
+// import 'package:matakuw/Painters/StopPainter.dart';
+// import './Painters/TrianglePainter.dart';
 
 class MyResultsPage extends StatefulWidget {
   String confidence, label, message;
@@ -53,7 +53,7 @@ class _MyResultsPageState extends State<MyResultsPage> {
             // automaticallyImplyLeading: false,
             elevation: 0,
             title: Row(
-              children: <Widget>[Text("Eyero")],
+              children: <Widget>[Text("Matakuw")],
             ),
             // Navigator.pop(context, true);
           ),
@@ -74,7 +74,7 @@ class _MyResultsPageState extends State<MyResultsPage> {
                     Center(),
                     isNormal
                         ? Text(
-                            "You are $confidence % $label",
+                            "Kamu $confidence % $label",
                             style: GoogleFonts.raleway(
                               fontSize: 25.0,
                               fontWeight: FontWeight.w600,
@@ -83,7 +83,7 @@ class _MyResultsPageState extends State<MyResultsPage> {
                             textAlign: TextAlign.center,
                           )
                         : Text(
-                            "You have a $confidence % possibility of having $label",
+                            "Kamu memiliki $confidence % kemungkinan memiliki $label",
                             style: GoogleFonts.raleway(
                               fontSize: 25.0,
                               fontWeight: FontWeight.w600,

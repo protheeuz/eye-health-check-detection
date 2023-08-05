@@ -11,7 +11,7 @@ class MyApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       initialRoute: '/',
       routes: {
-        // When navigating to the "/" route, build the FirstScreen widget.
+        // Ketika route '/' itu menavigasikan ke dalam introduction page.
         '/': (context) => MySwiperApp(),
         '/imagePicker': (context) => MyImagePicker(),
       },

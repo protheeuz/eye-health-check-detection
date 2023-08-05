@@ -1,4 +1,4 @@
-# eyero
+# Matakuw
 
 A project using machine learning and flutter to detect cataracts
 
