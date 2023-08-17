@@ -136,7 +136,7 @@ class MySwiperApp extends StatelessWidget {
                           style: boldStyle,
                         ),
                         SizedBox(
-                          height: 20.0,
+                          height: 20.0, 
                         ),
                         Text(
                           "Klik opsi kamera\n"

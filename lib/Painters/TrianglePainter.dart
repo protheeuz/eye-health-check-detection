@@ -12,13 +12,12 @@ class TrianglePainter extends CustomPainter {
 
   @override
   void paint(Canvas canvas, Size size) {
-    Paint paint = Paint()
-      ..color = Colors.deepOrange;
-      //..maskFilter = MaskFilter.blur(BlurStyle.solid, 10.0);
+    Paint paint = Paint()..color = Colors.blueAccent;
+    //..maskFilter = MaskFilter.blur(BlurStyle.solid, 10.0);
 
     Paint paint2 = Paint()
       ..maskFilter = MaskFilter.blur(BlurStyle.solid, 5.0)
-      ..color = Colors.orange;
+      ..color = Colors.blueAccent;
 
     canvas.drawPath(getTrianglePath(size.width + 10, size.height + 10), paint2);
     canvas.drawPath(getTrianglePath(size.width, size.height), paint);

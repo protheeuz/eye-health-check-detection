@@ -27,13 +27,13 @@ class CurvePainter extends CustomPainter {
     var height = size.height;
 
     var path1 = Path();
-    path1.moveTo(0, height * 0.250);
+    path1.moveTo(0, height * 0.200);
 
     path1.quadraticBezierTo(
-        width * 0.250, height * 0.400, width * 0.50, height * 0.250);
+        width * 0.200, height * 0.300, width * 0.50, height * 0.200);
 
     path1.quadraticBezierTo(
-        width * 0.750, height * 0.400, width, height * 0.250);
+        width * 0.650, height * 0.300, width, height * 0.200);
 
     path1.lineTo(width, 0);
     path1.lineTo(0, 0);
@@ -41,10 +41,10 @@ class CurvePainter extends CustomPainter {
 //-------------------------------------------
     var path2 = Path();
 
-    path2.moveTo(0, height * 0.250);
+    path2.moveTo(0, height * 0.200);
     // Control point -> End Point
     path2.quadraticBezierTo(
-        width * 0.25, height * 0.100, width * 0.50, height * 0.250);
+        width * 0.25, height * 0.100, width * 0.50, height * 0.200);
 
     path2.quadraticBezierTo(width * 0.75, height * 0.0005, width, 0);
 
@@ -56,10 +56,10 @@ class CurvePainter extends CustomPainter {
     path3.moveTo(0, height * 0);
 
     //path3.quadraticBezierTo(
-    //    width * 0.250, height * 0.400, width * 0.50, height * 0.250);
-    path3.moveTo(width * 0.50, height * 0.250);
+    //    width * 0.200, height * 0.300, width * 0.50, height * 0.200);
+    path3.moveTo(width * 0.50, height * 0.200);
     path3.quadraticBezierTo(
-        width * 0.750, height * 0.400, width, height * 0.275);
+        width * 0.650, height * 0.300, width, height * 0.125);
 
     path3.lineTo(width, 0);
     path3.lineTo(0, 0);

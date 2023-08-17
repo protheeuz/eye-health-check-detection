@@ -19,8 +19,8 @@ class ListPainter extends CustomPainter {
       ..moveTo(0, 0)
       ..moveTo(0, height * 0.250)
       ..quadraticBezierTo(
-          width * 0.250, height * 0.400, width * 0.50, height * 0.250)
-      ..quadraticBezierTo(width * 0.750, height * 0.050, width, 0)
+          width * 0.250, height * 0.300, width * 0.50, height * 0.250)
+      ..quadraticBezierTo(width * 0.650, height * 0.050, width, 0)
       ..lineTo(0, 0)
       ..close();
 

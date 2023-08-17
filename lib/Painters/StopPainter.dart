@@ -11,7 +11,7 @@ class StopPainter extends CustomPainter {
     var height = size.height;
 
     Paint paint = Paint()
-      ..color = Colors.orange;
+      ..color = Colors.blueAccent;
      // ..maskFilter = MaskFilter.blur(BlurStyle.solid, 2.0);
 
     Path path1 = Path()
