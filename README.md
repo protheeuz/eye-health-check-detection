@@ -1,6 +1,6 @@
 # Matakuw
 
-Yucho prooject using machine learning and flutter to detect cataracts
+Yucho project using machine learning and flutter to detect cataracts
 
 ## Getting Started
 
